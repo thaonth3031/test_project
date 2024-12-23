@@ -1,0 +1,11 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "Custom DBT Terminal": {
+            "path": "C:\\WINDOWS\\System32\\cmd.exe",
+            "args": ["/k", "D:\\Projects_Github\\test_project\\terminal_startup.bat"],
+            "icon": "terminal-cmd"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Custom DBT Terminal"
+}
+

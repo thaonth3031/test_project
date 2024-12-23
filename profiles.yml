@@ -1,0 +1,12 @@
+test_project:
+  outputs:
+    default:
+      type: clickhouse
+      host: 10.56.10.11
+      user: vds_ewallet
+      password: wpT9a7Q36t4C
+      database: 
+      schema: DBT
+      threads: 4  # Số lượng kết nối đồng thời
+      port: 8123  # Cổng mặc định của ClickHouse
+  target: default
